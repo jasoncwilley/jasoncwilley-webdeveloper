@@ -116,6 +116,8 @@ iframe {
 .header .header-images img {
   margin-left: 65px;
   margin-top: 15px;
+  width: 200px;
+  height: 200px;
 }
 
 .header .profile-content .name {
@@ -212,6 +214,7 @@ iframe {
 
 .latest .item img {
   width: 80%;
+  min-height: 80px;
 }
 .latest .feature-list li{
 
