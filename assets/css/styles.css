@@ -16,6 +16,33 @@ h6 {
   font-weight: 700;
   color: #778492;
 }
+table {
+    position: relative;
+    width: 100%;
+    width: 600px;
+    border: 0;
+    background: #ffffff;
+    border-collapse: separate;
+    border-radius: 0.2rem;
+    border-spacing: 0;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: left;
+ border: 1px solid black;
+padding-left: 10px;
+}
+th {
+padding-top: 10px;
+padding-left: 15px;
+padding-bottom: 10px;
+font-size: 20px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+td {
+padding-top: 5px;
+padding-bottom: 5px;
+font-size: 15px;
+}
+
 a {
   color: #3AAA64;
   -webkit-transition: all 0.4s ease-in-out;
@@ -167,10 +194,53 @@ iframe {
   font-size: 20px;
   padding-top: 8px;
 }
+.softskillsheading {
+padding-left: 30px;
+}
+.softskills {
+padding-left: 25px;
+}
+.hardskillsheading {
+padding-left: 30px;
+}
+
+.hardskills {
+padding-left: 50px;
+}
+.languages {
+padding-left: 100px;
+}
 
 /* ======= Sections======= */
 
 /* About Section */
+.sections-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+ }
+
+.section {
+  margin-bottom: 30px;
+  float: left:
+}
+.section .section-inner {
+  background: #fff;
+  padding: 30px;
+}
+.section .heading {
+  margin-top: 0;
+  margin-bottom: 23px;
+  color: #545e69;
+  font-size: 35px;
+}
+.section .content .more-link .fa {
+  margin-right: 5px;
+  font-size: 14px;
+  padding:30px;
+}
+
+
+/* Skill Set Section */
 .sections-wrapper {
   padding-top: 60px;
   padding-bottom: 60px;
