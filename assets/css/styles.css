@@ -6,6 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+nav {
+  background-color: #DAE3E7;
+  margin-top: 20px;
+  margin-left: 50px;
+}
 h1,
 h2,
 h3,

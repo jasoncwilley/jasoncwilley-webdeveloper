@@ -49,6 +49,41 @@
                 <img src="assets/images/projects/reactbase.png"class="rounded-circle" />
                 <img src="assets/images/projects/contactulator2000.png" class="rounded-circle" />
             </div>
+          <div class="navbuttons">
+            <nav class="navbar navbar-expand-sm">
+ <!-- Brand -->
+ <a class="navbar-brand" href="#">Logo</a>
+
+ <!-- Links -->
+ <ul class="navbar-nav">
+   <li class="nav-item">
+     <a class="nav-link" href=" https://jasoncwilley.github.io/#aboutme">About Me</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href=" https://jasoncwilley.github.io/#skills">Skills</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href=" https://jasoncwilley.github.io/#workhistory">Employment History</a>
+   </li>
+   <li class="nav-item">
+     <a class="nav-link" href=" https://jasoncwilley.github.io/#sprojects">Portfolio</a>
+   </li>
+
+
+   <!-- Dropdown -->
+   <li class="nav-item dropdown">
+     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Dropdown link
+     </a>
+     <div class="dropdown-menu">
+       <a class="dropdown-item" href="#">Link 1</a>
+       <a class="dropdown-item" href="#">Link 2</a>
+       <a class="dropdown-item" href="#">Link 3</a>
+     </div>
+   </li>
+ </ul>
+</nav>
+          </div>
         </div>
         <!--//container-->
 </header><!--//header-->
@@ -56,10 +91,11 @@
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
-                <section class="about section">
+                <section id="aboutme" class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
+                          <a id="aboutme">
                             <p>My name is Jason C. Willey and I am freelance Web Developer seeking new clients and contracting opportunutues.  Previous clients and friends have described me as "An upbeat positive and caring person with a wide range of professional and personal expierences",
                                "A patient approachable trainer who has a knack for relating others and  can commuicate technical concepts at all levels of an orgainization" and most importantly "A loyal and dependable contractor who is a team player and consistently offered us
                                creative solutions to complicated orgainizational and data related problems all of our managers face."</p>
@@ -68,17 +104,19 @@
                                and want to learn more about carpentry when I have time.  Volunteering in my local community is important to me as well. I am currently looking for local churches and nonprofits who need help with web development or IT related issues.
                                code.  Whether it is a building website for a friend or reaching out to a nonprofit whose mission  I support is in line with my beliefs
                               </p>
-
+</a>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
 
-                <section class="skill section">
+                <section id="skills" class="skill section">
                     <div class="section-inner">
+                      <a id="skills">
                         <h2 class="heading">Skills</h2>
                         <div class="content">
-                         <table>
-
+                          <div class="table responsive">
+                         <table class="table">
+<tbody>
 <th class="tableheading softskillsheading">Soft Skills</th>
 <th class="tableheading hardskillsheading">Hard Skills</th>
 <th class="tableheading">Programming Languages</th>
@@ -96,50 +134,52 @@
 <tr>
 <td class="softskills">Problem Solving</td>
 <td class="hardskills">Bootstrap</td>
-<td class="languages">MySQL</td>
+<td class="languages">JQuery</td>
 </tr>
 <tr>
 <td class="softskills">Creativity</td>
 <td class="hardskills">Firebase</td>
-<td class="languages">JQuery</td>
+<td class="languages">SQL</td>
 </tr>
 <tr>
 <td class="softskills">Work Ethic</td>
-<td class="hardskills">Database Design</td>
-<td class="languages">NodeJS</td>
+<td class="hardskills">APIs</td>
+<td class="languages">HTML5</td>
 </tr>
 <tr>
 <td class="softskills">Enthusiasm</td>
-<td class="hardskills">Trello</td>
-<td class="languages">HTML 5</td>
-</tr>
-<tr>
-<td class="softskills">Visual Thinking</td>
-<td></td>
+<td class="hardskills">Database Design </td>
 <td class="languages">CSS</td>
 </tr>
 <tr>
+<td class="softskills">Visual Thinking</td>
+<td class="hardskils">Trello</td>
+<td class="languages">Markdown</td>
+</tr>
+
 
 </tbody>
 </table>
                         </div><!--//content-->
+</a>
                     </div><!--//section-inner-->
                 </section><!--//section-->
                 <!-- Experience section-->
-         <section class="experience section">
+         <section id="workhistory" class="experience section">
              <div class="section-inner">
                  <h2 class="heading">Work Experience</h2>
                  <div class="content">
                      <div class="item">
-                       <h3 class="title">Network Administration Asst - <span class="place"><a href="http://www.atlantatechservices.com/"></a>Atlanta Tech Services</span> <span <class="year">(2013 - Present)</span></h3>
+                       <h3 class="title">Atlanta Tech Services <span class="place">
+                       <br></a>Network Administration Asst</a></span> <span class="year">(2013 - Present)</span></h3>
                          <p>Installed, configured and maintained customized Linux servers and BSD based routers designed to fit the client's individual needs.  ATS provided me the opportuntiy to learn advanced networking techniques and the importance of communication between clients and contractors.  I curenlty still perform some duties remotely when the owner needs some extra help with updates and maintainance.</p>
                      <div class="item">
-                         <h3 class="title">Program Analyst - <span class="place"><a href="#">HUD/LockHeed</a></span> <span class="year">(2009 - 2012)</span></h3>
+                         <h3 class="title">Dept of HUD<span class="place"><br>Program Analyst<a href="#"></a></span> <span class="year">(2009 - 2013)</span></h3>
                          <p>Worked on various contracts on special projects focused on increasing agency efficiency and lender oversight.  Desgined departmental databases that affored Contrators and Agency Management the abilty to assess thier performance.  Provied oversight of the implementation of FHA's customer service system that ultimately allowed contractor and FHA employees to respond to over 3500 requests for assistance per month</p>
                      </div><!--//item-->
 
                      <div class="item">
-                         <h3 class="title">Housing Program Specialist- <span class="place"><a href="http://www.hud.gov"></a></span> <span class="year">(2002 - 2008)</span></h3>
+                         <h3 class="title">Dept of HUD<span class="place"><br>Housing Program Specialist<a href="http://www.hud.gov"></a></span> <span class="year">(2002 - 2008)</span></h3>
                          <p>Managed a federal grant program focused on home ownership and bretention.  My division of 8 employees monitored 350+ non-protit agencies that were awarded over 12 million dollars annually.  Duties included training developing and providing training to grantees and federal employees on an regional and national level as well as providing non-provides guidance on navigating regulatory barriers</p>
                      </div><!--//item-->
 
@@ -147,7 +187,7 @@
              </div><!--//section-inner-->
          </section><!--//section-->
 
-                <section class="latest section">
+                <section id="projects" class="latest section">
                     <div class="section-inner">
                         <h1 class="heading">Recent Completed Projects</h1>
                         <div class="content">
