@@ -7,9 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 nav {
-  background-color: #DAE3E7;
+
   margin-top: 20px;
   margin-left: 50px;
+}
+.navbutton {
+  background-color: #545E69;
+}
+
+button {
+  background-color: #545E69;
+  background:  #DAE3E7;
 }
 h1,
 h2,
