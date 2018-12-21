@@ -70,7 +70,7 @@ If you do not want to include Moment.js, you may opt for providing your own date
 
         // additional token definition for in-template-usage
         // default: {}
-        // valid values: any object/hash
+        // valid values: any object/hashrequires
         tokens: {
           foo: 'bar',
           bar: function(entry, tokens) { return entry.title }
@@ -78,7 +78,7 @@ If you do not want to include Moment.js, you may opt for providing your own date
 
         // formats the date with moment.js (optional)
         // default: 'dddd MMM Do'
-        // valid values: see http://momentjs.com/docs/#/displaying/
+        // valid values: see http://momentjs.com/docs/#/displaying/requires
         dateFormat: 'MMMM Do, YYYY',
 
         // localizes the date with moment.js (optional)
