@@ -621,7 +621,14 @@ list-style-type: disc;
   height: 15px;
   background: #66cb8c;
 }
-
+.codewars {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.codewarsimg {
+  width: 150px;
+}
 /* Education section */
 .education .item {
   margin-bottom: 30px;
