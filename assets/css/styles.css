@@ -38,7 +38,7 @@ margin-left: 100px;
 		position: relative;
 		display: block;
 		color: white;
-		background: $blue;
+		background:#82888A;
 		@include double-shadow($blue);
 		@include hover-style($blue);
 		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
