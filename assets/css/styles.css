@@ -38,7 +38,7 @@ margin-left: 100px;
 		position: relative;
 		display: block;
 		color: white;
-		background:#82888A;
+		background: $blue;
 		@include double-shadow($blue);
 		@include hover-style($blue);
 		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
@@ -421,7 +421,7 @@ min-width: 750px;
   text-align: left;
 padding-right: 25px;
 }
-.secondsection 3  {
+.secondsection   {
   margin-top: 10px;
   padding-bottom: 20px;
   color: #545e69;
@@ -600,54 +600,59 @@ list-style-type: disc;
   box-sizing: content-box;
 }
 /* Info Section */
-.secton-inner {
-width:375px;
-height: 500px;
-
-}
-.list .music .section aside {
-height: 200px;
-}
-
-}
 .info .fa {
   margin-right: 15px;
   color: #ccd1d6;
-  margin-bottom:12px;
 }
 .info .fa.fa-envelope-o {
   font-size: 14px;
 }
 .info ul {
-  padding-top: 4px;
+  margin-bottom: 0;
 }
 .info li {
-  margin-bottom: 6px;
+  margin-bottom: 15px;
 }
 .info li:last-child {
   margin-bottom: 0;
 }
-/* Skills Section */
-.skills .section aside {
-height: 600px;
-margin-bottom: 20px;
 
+
+/* Offline Section */
+
+.offline .fa {
+  margin-right: 15px;
+  color: #ccd1d6;
 }
+.offline .fa {
+  font-size: 14px;
+}
+.offline ul {
+  margin-bottom: 2px;
+}
+.offline li {
+  margin-bottom: 8px;
+}
+.offline li:last-child {
+  margin-bottom: 7px;
+}
+
+/* Skills Section */
 .skills .title {
-  padding-top:6px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .skills .intro {
-  margin-bottom: 16px;
+  margin-bottom: 30px;
 }
 .skills .skillset .item {
-  margin-bottom:14px;
+  margin-bottom: 30px;
 }
 .skills .skillset .level-title {
   font-size: 16px;
   position: relative;
   margin-top: 0;
-  margin-bottom: 11px;
+  margin-bottom: 10px;
 }
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
@@ -666,15 +671,8 @@ margin-bottom: 20px;
   height: 15px;
   background: #66cb8c;
 }
-.codewars {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-.codewarsimg {
-  width: 150px;
 
-}
+
 /* Education section */
 .education .item {
   margin-bottom: 30px;
@@ -1353,26 +1351,21 @@ height: 500px;
   margin-bottom: 0;
 }
 /* Skills Section */
-.skills {
-height: 512px;
-margin-bottom: 35px;
-
-}
 .skills .title {
-  padding-top:6px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.skills .intro {
-  margin-bottom: 16px;
+.
 }
 .skills .skillset .item {
-  margin-bottom:14px;
+  margin-bottom: 30px;
 }
 .skills .skillset .level-title {
-  font-size: 16px;
+  font-size: 17px;
   position: relative;
-  margin-top: 0;
-  margin-bottom: 11px;
+  margin-top: 6px;
+  margin-bottom: 25px;
+  padding-bottom:7px;
 }
 .skills .skillset .level-title .level-label {
   color: #ccd1d6;
@@ -1384,22 +1377,14 @@ margin-bottom: 35px;
   top: 0;
 }
 .skills .skillset .level-bar {
-  height: 15px;
+  height: 17px;
   background: #e8e8e8;
 }
 .skills .skillset .level-bar-inner {
-  height: 15px;
+  height: 17px;
   background: #66cb8c;
 }
-.codewars {
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-.codewarsimg {
-  width: 150px;
 
-}
 /* Education section */
 .education .item {
   margin-bottom: 30px;
