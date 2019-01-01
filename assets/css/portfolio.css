@@ -84,9 +84,9 @@ ul
 {
     list-style: none;
 }
-.header {
-
-  background-color: white;
+.headerone {
+width:1000px;
+  background-color: green;
 }
 .container {
     width: 100%;
