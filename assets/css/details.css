@@ -18,7 +18,9 @@ margin-left: 100px;
   font-size: 18px;
 
 }
-.project-img {
+img {
+  margin-left: 375px;
+  margin-bottom: 50px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -59,84 +61,11 @@ margin-left: 100px;
 
 }
 
-.dropdown {
-	a {
-		text-decoration: none;
-	}
-
-	[data-toggle="dropdown"] {
-		position: relative;
-		display: block;
-		color: white;
-		background: $blue;
-		@include double-shadow($blue);
-		@include hover-style($blue);
-		@include text-shadow(0 -1px 0 rgba(0,0,0,0.3));
-		padding: 10px;
-
-	}
-	.icon-arrow {
-		position: absolute;
-		display: block;
-		font-size: 0.7em;
-		color: #fff;
-		top: 14px;
-		right: 10px;
-
-		&.open {
-			@include transform(rotate(-180deg));
-			@include transition(transform .6s);
-		}
-		&.close {
-			@include transform(rotate(0deg));
-			@include transition(transform .6s);
-		}
-
-		&:before {
-			content: '\25BC';
-		}
-	}
-
-	.dropdown-menu {
-		max-height: 0;
-		overflow: hidden;
-		@include ul-nostyle;
-
-		li {
-			padding: 0;
-
-			a {
-				display: block;
-				color: darken($gray, 50%);
-				background: $gray;
-				@include double-shadow($gray);
-				@include hover-style($gray);
-				@include text-shadow(0 -1px 0 rgba(255,255,255,0.3));
-				padding: 10px 10px;
-			}
-		}
-	}
-
-	.show, .hide {
-		@include transform-origin(50%, 0%);
-	}
-
-	.show {
-		display: block;
-		max-height: 9999px;
-		@include transform(scaleY(1));
-		@include animation(showAnimation .5s ease-in-out);
-		@include transition(max-height 1s ease-in-out);
-	}
-
-	.hide {
-		max-height: 0;
-		@include transform(scaleY(0));
-		@include animation(hideAnimation .4s ease-out);
-		@include transition(max-height .6s ease-out);
-	}
+.summary {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 50px;
 }
-
 @include keyframes(showAnimation) {
 	0% {
 		@include transform(scaleY(0.1));
@@ -325,14 +254,24 @@ padding-top: 25px;
   max-width: 400px;
   height: 250;
 }
-.descc {
+.desc {
   color: #778492;
   font-family: "Lato", arial, sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 10px;
   margin-bottom: 15px;
-  margin-right: 900px;
+  margin-left: 60px;
+
+  }
+  .feature-list {
+    color: #778492;
+    font-family: "Lato", arial, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 80px;
   }
 .header .profile-content .desc{
   color: #778492;
@@ -1262,6 +1201,7 @@ list-style-type: disc;
 .latest .featured .summary {
   margin-bottom: 30px;
   color: #778492;
+  text-align: center;
 }
 .latest .featured img {
   margin-bottom: 30px;
