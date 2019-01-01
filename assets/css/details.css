@@ -18,12 +18,41 @@ margin-left: 100px;
   font-size: 18px;
 
 }
+.project-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: #82888A solid 5px;
+
+}
 .button {
   background-color:#82888A;
   border-color:   #545E69;
   border-width: 2px;
   color:white;
   width: 130px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+
+}
+.websitebtn: {
+  background-color:#82888A;
+  border-color:   #545E69;
+  border-width: 2px;
+  color:white;
+  width: 175px;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 8px;
+
+}
+.backtoportfoliobtn {
+  background-color:#82888A;
+  border-color:   #545E69;
+  border-width: 2px;
+  color:white;
+  width: 175px;
   margin-left: 8px;
   margin-right: 8px;
   padding-left: 8px;
