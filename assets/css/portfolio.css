@@ -86,7 +86,9 @@ ul
 }
 .headerone {
 width:1000px;
-  background-color: green;
+  background-color: white;
+  border-top: 10px solid #778492;
+  border-bottom: 10px solid #778492;
 }
 .container {
     width: 100%;
