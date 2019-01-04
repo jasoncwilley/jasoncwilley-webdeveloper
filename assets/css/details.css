@@ -1,3 +1,6 @@
+.sql {
+  width: 80%;
+}
 
 body {
   font-family: 'Lato', arial, sans-serif;
@@ -66,44 +69,7 @@ img {
   font-size: 35px;
   margin-bottom: 50px;
 }
-@include keyframes(showAnimation) {
-	0% {
-		@include transform(scaleY(0.1));
-	}
-	40% {
-		@include transform(scaleY(1.04));
-	}
-	60% {
-		@include transform(scaleY(0.98));
-	}
-	80% {
-		@include transform(scaleY(1.04));
-	}
-	100% {
-		@include transform(scaleY(0.98));
-	}
-	80% {
-		@include transform(scaleY(1.02));
-	}
-	100% {
-		@include transform(scaleY(1));
-	}
-}
 
-@include keyframes(hideAnimation) {
-  0% {
-  	@include transform(scaleY(1));
-  }
-  60% {
-  	@include transform(scaleY(0.98));
-  }
-  80% {
-  	@include transform(scaleY(1.02));
-  }
-  100% {
-  	@include transform(scaleY(0));
-  }
-}
 h1,
 h2,
 h3,

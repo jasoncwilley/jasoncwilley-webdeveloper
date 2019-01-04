@@ -667,11 +667,31 @@ list-style-type: disc;
   height: 15px;
   background: #e8e8e8;
 }
-.skills .skillset .level-bar-inner {
+.python{
   height: 15px;
   background: #66cb8c;
+  width: 80%;
 }
-
+ .javascript {
+  height: 15px;
+  background: #66cb8c;
+  width: 70%;
+}
+.skills .skillset  .html {
+  height: 15px;
+  background: #66cb8c;
+  width: 95%;
+}
+ .api {
+  height: 15px;
+  background: #66cb8c;
+  width: 90%;
+}
+ .sql {
+  height: 15px;
+  background: #66cb8c;
+  width: 80%;
+}
 
 /* Education section */
 .education .item {
