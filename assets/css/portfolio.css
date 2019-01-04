@@ -74,7 +74,11 @@ body
     word-wrap:break-word;
     background-color: #343436;
   }
-
+h2{
+  margin-top: 25px;
+  font-family: 'Righteous', cursive;
+  font-size: 50px;
+}
 p
 {
     margin: 0 0 10px;
@@ -85,7 +89,9 @@ ul
     list-style: none;
 }
 .headerone {
-width:1000px;
+width:750px;
+margin-left: 160px;
+margin-top: 15px;
   background-color: white;
   border-top: 10px solid #778492;
   border-bottom: 10px solid #778492;
@@ -112,7 +118,7 @@ width:1000px;
   color: white;
   border: white solid 1px;
   font-family: 'Righteous', cursive;
-
+  margin-bottom: 15px;
 
 }
 .websitebtn {
@@ -121,10 +127,12 @@ width:1000px;
 }
 .backbutton {
   margin-top: 25px;
+  margin-left: 25px;
 }
 .backbtn {
   width: 150px;
   text-align: center;
+
 }
 
 .links {
